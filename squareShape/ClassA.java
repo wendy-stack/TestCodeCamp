@@ -2,7 +2,7 @@ package com.squareShape;
 
 public class ClassA {
     private int shapeSide = 4;
-    int shapeLength = 6;
+    int shapeLength = 12;
     int shapeBreadth = 12;
 
     public int getShapeSide() {
