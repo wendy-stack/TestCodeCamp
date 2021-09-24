@@ -14,7 +14,7 @@ public class ClassA {
     }
 
     public void setShapeLength(int shapeLength) {
-        this.shapeLength = 6;
+        this.shapeLength = 12;
     }
 
     public int getShapeBreadth() {
