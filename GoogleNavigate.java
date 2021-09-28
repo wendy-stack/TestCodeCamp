@@ -13,6 +13,9 @@ public class GoogleNavigate {
         //fi-q
         driver.get("https://www.amazon.co.uk/");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Samsung Galaxy");
+        driver.findElement(By.id("nav-search-submit-button")).click();
+        driver.findElement(By.id("sp-cc-accept")).click();
+
 
 
     }
