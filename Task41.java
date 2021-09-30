@@ -14,11 +14,9 @@ public class Task41 {
         driver.get("https://jqueryui.com/");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//a[contains(text(),'Dialog')]")).click();
-//        WebElement iframe = driver.findElement(By.xpath("button[title='Close']"));
-//        driver.switchTo().frame(iframe);
-//        driver.findElement(By.xpath("button[title='Close']")).click();
-        driver.switchTo().frame(driver.findElement(By.name("Close")));
-        driver.findElement(By.xpath("button[title='Close']")).click();
+
+        driver.switchTo().frame(driver.findElement(By.cssSelector("iframe.demo-frame")));
+        driver.findElement(By.xpath("//body[1]/div[1]/div[1]/button[1]/span[1]")).click();
 
 
 
